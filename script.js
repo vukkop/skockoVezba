@@ -45,7 +45,7 @@ function ispisPoljaRezultata() {
     e.innerHTML = "";
     for (let i = 0; i < 4; i++) {
         e.innerHTML += `
-        <div class='resenje${i}'></div>
+        <div id='resenje${i}'></div>
         ` 
     }
 }
